@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+#Data files (generateed - reproduce via scripts)
+data/*.csv
+!data/.gitkeep
+
+#OS
+.DS_Store
+Thumbs.db
+
+Power BI temp files
+*.pbix.bak
+
+# Editor
+.vscode/
+.idea/
